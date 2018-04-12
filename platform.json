@@ -1,6 +1,6 @@
 {
-  "name": "ststm32",
-  "title": "ST STM32",
+  "name": "ststm32-latest",
+  "title": "ST STM32 Latest",
   "description": "The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is designed to offer new degrees of freedom to MCU users. It offers a 32-bit product range that combines very high performance, real-time capabilities, digital signal processing, and low-power, low-voltage operation, while maintaining full integration and ease of development.",
   "url": "http://www.st.com/web/en/catalog/mmc/FM141/SC1169?sc=stm32",
   "homepage": "http://platformio.org/platforms/ststm32",
@@ -51,7 +51,7 @@
     "framework-mbed": {
       "type": "framework",
       "optional": true,
-      "version": "~4.50707.0"
+      "version": "git@github.com:jdinh1/mbed-os.git#4737774d4a80e1ad6d2cec6f90d883066de947ac"
     },
     "framework-cmsis": {
       "type": "framework",
